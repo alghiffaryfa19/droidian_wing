@@ -66,7 +66,7 @@ modules.builtin
 #
 # Debian directory (make deb-pkg)
 #
-/debian/
+/debian/linux*
 
 #
 # Snap directory (make snap-pkg)
@@ -137,7 +137,6 @@ all.config
 kernel/configs/android-*.cfg
 
 # vendor device tree directories
-arch/arm64/boot/dts/vendor
 
 # Tech package directories
 techpack/
