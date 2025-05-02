@@ -5969,8 +5969,8 @@ static int __init touch_sub_device_init(void)
 	TOUCH_TRACE();
 
 
-	if (!is_ddic_name(1,"sw43103")) {
-		TOUCH_I("%s, ddic sw43103 not found.\n", __func__);
+	if (!is_ddic_name(1,"rm692C9")) {
+		TOUCH_I("%s, ddic rm692C9 not found.\n", __func__);
 		return 0;
 	}
 
